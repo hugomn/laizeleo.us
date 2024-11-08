@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import { FaHeart } from "react-icons/fa";
 import styled, { keyframes } from "styled-components";
 import { Grid, Cell } from "styled-css-grid";
-import { withPrefix } from "gatsby";
 
 import { media } from "../constants/responsive";
 import { FixedContainer } from "./FixedContainer";
@@ -16,15 +15,11 @@ const Footer = ({ author, langs, sourceCodeLink, currentLangKey }) => {
         <Grid columns="1">
           <LeftCell middle>
             <span>
-              Designed with <HeartIcon /> by{" "}
+              Designed and coded with <HeartIcon /> by{" "}
               <A fontWeight="500" href="https://www.lunara.me" target="_blank">
                 Lunara
               </A>{" "}
-              and coded with
-              <a href="https://www.gatsbyjs.org/" target="_blank" rel="noopener noreferrer">
-                <GatsbyIcon src={withPrefix("/img/gatsbyjs.svg")} alt="Gatsby" />
-              </a>
-              by{" "}
+              and{" "}
               <A fontWeight="500" href="https://www.hugo.im" target="_blank">
                 Hugo
               </A>
@@ -84,7 +79,7 @@ Footer.propTypes = {
   author: PropTypes.object.isRequired,
   langs: PropTypes.array,
   sourceCodeLink: PropTypes.string.isRequired,
-  currentLangKey: PropTypes.string
+  currentLangKey: PropTypes.string,
 };
 
 export default Footer;

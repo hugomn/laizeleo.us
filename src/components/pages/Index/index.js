@@ -29,17 +29,13 @@ const Index = (props) => {
   return (
     <Layout location={props.location}>
       <VideoContainer>
-        <TitleContainer
-          color="white"
-          fontFamily={Orator}
-          fontSize={[45, 65, 85, 105]}
-        >
+        <TitleContainer color="white" fontFamily={Orator} fontSize={[45, 65, 85, 105]}>
           <DateBox>
-            15
+            02
             <br />
-            04
+            05
             <br />
-            22
+            25
           </DateBox>
         </TitleContainer>
         <Video playsInline autoPlay muted loop id="myVideo">
@@ -50,11 +46,7 @@ const Index = (props) => {
         <Box id="os-noivos" py={["4", "5"]}>
           <Us />
         </Box>
-        <TimelineBox
-          id="historia"
-          py={["4", "5"]}
-          backgroundColor="lightColors.1"
-        >
+        <TimelineBox id="historia" py={["4", "5"]} backgroundColor="lightColors.1">
           <Timeline {...props} />
         </TimelineBox>
         <Box id="padrinhos" py={["4", "5"]}>
@@ -79,17 +71,10 @@ const Index = (props) => {
         center
         styles={{ modal: { borderRadius: "6px", padding: "1.2rem 0" } }}
       >
-        <AnnouncementImg
-          width={[300, 450, 550]}
-          src={`/img/announcement_${lang}.jpg`}
-          m={[0, 20]}
-          mt={0}
-        />
+        <AnnouncementImg width={[300, 450, 550]} src={`/img/announcement_${lang}.jpg`} m={[0, 20]} mt={0} />
         <ButtonContainer>
           <BtnLink mt={3} px={4} to={url}>
-            <FormattedMessage id="index.announcement.action">
-              {(txt) => txt}
-            </FormattedMessage>
+            <FormattedMessage id="index.announcement.action">{(txt) => txt}</FormattedMessage>
           </BtnLink>
         </ButtonContainer>
       </Modal>

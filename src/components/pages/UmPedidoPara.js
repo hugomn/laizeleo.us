@@ -24,12 +24,12 @@ const padrinhos = {
   ricardo: { gender: "M", name: "Ricardo", videoId: "xhIMhHx9J-M" },
   rita: { gender: "F", name: "Rita", videoId: "pj0t4ZN00Do" },
   thiago: { gender: "M", name: "Thiago", videoId: "iIrIRH4430k" },
-  adriana: { gender: "F", name: "Adriana", videoId: "iIrIRH4430k" }
+  adriana: { gender: "F", name: "Adriana", videoId: "iIrIRH4430k" },
 };
 
 const UmPedidoPara = ({ name }) => {
   const padrinho = padrinhos[name];
-  const title = `Um pedido para ${padrinho.name} | Lunara & Hugo`;
+  const title = `Um pedido para ${padrinho.name} | Laiz & Leo`;
   const description = `Querid${padrinho.gender === "M" ? "o" : "a"} ${
     padrinho.name
   }, a única coisa melhor do que ter você como amig${padrinho.gender === "M" ? "o" : "a"} é... ❤️`;
@@ -40,7 +40,7 @@ const UmPedidoPara = ({ name }) => {
         <meta name="description" content={description} />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
-        <meta property="og:image" content="https://www.luehugo.us/favicon.png" />
+        <meta property="og:image" content="https://www.laizeleo.us/favicon.png" />
       </Helmet>
       <Envelope>
         <VideoContainer>
@@ -69,7 +69,7 @@ const Video = styled.iframe`
 const Envelope = styled.div`
   width: 100%;
   min-height: 100vh;
-  background-image: url('/img/envelope.png');
+  background-image: url("/img/envelope.png");
   background-position: calc(50% + 100px) 0;
   background-repeat: no-repeat;
   background-size: auto;
@@ -77,7 +77,7 @@ const Envelope = styled.div`
 
 const MainContainer = styled.div`
   min-height: 100vh;
-  background-image: url('/img/background.jpeg');
+  background-image: url("/img/background.jpeg");
   background-repeat: repeat;
   background-position: center;
 `;
