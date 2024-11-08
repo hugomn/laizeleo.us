@@ -1,9 +1,9 @@
 const languages = require("./languages");
 
 module.exports = {
-  siteUrl: "https://www.luehugo.us",
+  siteUrl: "https://www.laizeleo.us",
   description:
-    "Queridos amigos! Esperamos vocês no nosso dia especial: 15 de Abril de 2022! Reserve essa data e venha comemorar conosco! 🧡",
+    "Queridos amigos! Esperamos vocês no nosso dia especial: 02 de Maio de 2025! Reserve essa data e venha comemorar conosco! 🧡",
   // description: {
   //   pt:
   //     "Queridos amigos! Esperamos vocês no nosso dia especial: 15 de Abril de 2022 de 2022! Reserve essa data e venha comemorar conosco! 🧡",
@@ -12,14 +12,13 @@ module.exports = {
   // },
   author: {
     name: "Hugo Nogueira",
-    bio:
-      "Senior software engineer and agile manager. React, and Node.js enthusiast. <br/> Engineering Lead @ <a href=`https://www.bcgdv.com`>BCG Digital Ventures</a>. Berlin, Germany",
+    bio: "CPTO @ Complyance. Berlin, Germany",
     homeCity: "Berlin",
     email: "hugomn@gmail.com",
     twitter: "hugomn",
     defaultLink: "https://github.com/hugomn",
   },
-  sourceCodeLink: "https://github.com/hugomn/luehugo.us",
+  sourceCodeLink: "https://github.com/hugomn/laizeleo.us",
   disqusShortname: "hugomagalhes",
   menu: [
     { label: "menu.us", slug: "/#os-noivos" },
@@ -37,16 +36,10 @@ module.exports = {
       value: "hugomn@gmail.com",
       link: "mailto:hugomn@gmail.com",
     },
-    {
-      type: "phone",
-      value: "+49 151 74477807",
-      country: "de",
-      link: "tel:+49 151 74477807",
-    },
   ],
   wedding: {
-    date: "2022-04-15",
+    date: "2025-05-02",
     fundingGoal: 20000,
-    fundingPledged: 11620,
+    fundingPledged: 0,
   },
 };

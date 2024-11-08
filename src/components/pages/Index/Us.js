@@ -40,10 +40,10 @@ const Us = () => {
           </Box>
 
           <Text fontFamily={Orator} fontSize={5} textAlign="center" color="dark.1" mt="4" mb="2">
-            Hugo
+            Léo
           </Text>
           <Text textAlign="center">
-            {intl.formatMessage({ id: "us.statement.hugo" })} - <b>Lu</b>
+            {intl.formatMessage({ id: "us.statement.leo" })} - <b>Laiz</b>
           </Text>
         </Box>
         <Box px={[3, 5]} mb={[4, 4, 0]} data-sal="slide-left" data-sal-delay="200">
@@ -51,10 +51,10 @@ const Us = () => {
             <Img sizes={data.brideImage.childImageSharp.sizes} />
           </Box>
           <Text fontFamily={Orator} fontSize={5} textAlign="center" color="dark.1" mt="4" mb="2">
-            Lunara
+            Laiz
           </Text>
           <Text textAlign="center">
-            {intl.formatMessage({ id: "us.statement.lunara" })} - <b>Hugo</b>
+            {intl.formatMessage({ id: "us.statement.laiz" })} - <b>Léo</b>
           </Text>
         </Box>
       </Grid>

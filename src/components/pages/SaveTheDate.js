@@ -3,8 +3,8 @@ import styled from "styled-components";
 import Img from "gatsby-image";
 import Helmet from "react-helmet";
 
-const SaveTheDate = props => {
-  const title = `Save the Date | Lunara & Hugo`;
+const SaveTheDate = (props) => {
+  const title = `Save the Date | Laiz & Leo`;
   const description = `Queridos amigos! Esperamos vocês no nosso dia especial: 15 de Abril de 2022! Reserve essa data e venha comemorar conosco! ❤️`;
   return (
     <MainContainer>
@@ -14,8 +14,8 @@ const SaveTheDate = props => {
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.luehugo.us" />
-        <meta property="og:image" content="https://www.luehugo.us/favicon.png" />
+        <meta property="og:url" content="https://www.laizeleo.us" />
+        <meta property="og:image" content="https://www.laizeleo.us/favicon.png" />
       </Helmet>
       <Envelope>
         <CardContainer align="center">
