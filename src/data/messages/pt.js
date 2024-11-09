@@ -88,10 +88,10 @@ module.exports = {
   "crowdfunding.action": "Contribuir",
   "gifts.description":
     "Nossa casa em Berlim já está quase pronta, e não conseguimos levar nada na mala. Então nossa lista de presentes é um mix que vai desde experiências que nós dois ainda não vivemos e vão gerar ótimos momentos de lazer e relaxamento até itens para complementar no nosso lar!",
-  "gifts.buy": "Comprar",
+  "gifts.buy": "Presentear",
   "gifts.items.of": "{count, plural, one {# item} other {# itens}} de",
   "gifts.items.missing": "{count, plural, one {falta # item} other {faltam # itens}}",
-  "gifts.action": "Comprar",
+  "gifts.action": "Presentear",
   "gifts.soldout": "Esgotado",
   "announcement.title": "Comunicado",
   "announcement.subtitle": "Adiamento do nosso dia",

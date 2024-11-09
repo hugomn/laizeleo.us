@@ -6,11 +6,11 @@ import { Orator, Allura } from "../constants/fonts";
 import { media } from "../constants/responsive";
 import Text from "./Text";
 
-const MainTitle = ({ title, subtitle, dark, secondary, ...props}) => {
+const MainTitle = ({ title, subtitle, dark, secondary, ...props }) => {
   return (
     <Wrapper {...props}>
       <Title fontFamily={Orator} fontSize={[20, 26, 28, 32]} textAlign="center" color={dark ? "white" : "black"}>
-        <FormattedMessage id={title}>{txt => <span>{txt}</span>}</FormattedMessage>
+        <FormattedMessage id={title}>{(txt) => <span>{txt}</span>}</FormattedMessage>
       </Title>
       <Subtitle
         fontFamily={Allura}
@@ -18,7 +18,7 @@ const MainTitle = ({ title, subtitle, dark, secondary, ...props}) => {
         textAlign="center"
         color={secondary ? "accentColors.0" : "brand"}
       >
-        <FormattedMessage id={subtitle}>{txt => <span>{txt}</span>}</FormattedMessage>
+        <FormattedMessage id={subtitle}>{(txt) => <span>{txt}</span>}</FormattedMessage>
       </Subtitle>
     </Wrapper>
   );
@@ -30,7 +30,7 @@ const Wrapper = styled.div`
   display: block;
   height: 80px;
   padding-top: 40px;
-  background-image: url('/img/maintitle_bg.png');
+  background-image: url("/img/maintitle_bg.png");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: 300px auto;
@@ -58,7 +58,7 @@ const Subtitle = styled(Text)`
   z-index: 1;
   width: 100%;
   white-space: nowrap;
-  opacity: 0.45;
+  opacity: 0.65;
   margin-top: 4px;
   ${media.md`
     margin-top: -10px;
