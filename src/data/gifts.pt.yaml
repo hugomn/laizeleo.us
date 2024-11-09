@@ -4,35 +4,35 @@
   paypalId: 3WUYSPTXJWWPS
   price: 230
   total: 2
-  sold: 2
+  sold: 0
 - name: Visitar as Ruínas de Delphi
   image: ../images/gifts/ruinas.jpg
   bbId: cm49eyJvcHIiOiJwZyIsImlkIjoiMDc0NWI3MzUtOTIwNC00OTRlLTkwZGEtZjJiMWQwMjA3MTdjIn0=
   paypalId: 3NNWTA69L3D6S
   price: 100
   total: 2
-  sold: 2
+  sold: 0
 - name: Manta para sofá H&M
   image: ../images/gifts/manta.jpg
   bbId: cm49eyJvcHIiOiJwZyIsImlkIjoiM2EyOTVjOTQtNmY4OC00YmIzLWJlYWQtOGFlY2I0OTFhM2FlIn0=
   paypalId: BEHQK78L8QYEC
   price: 140
   total: 1
-  sold: 1
+  sold: 0
 - name: Massagem relaxante
   image: ../images/gifts/massage.jpg
   bbId: cm49eyJvcHIiOiJwZyIsImlkIjoiM2MwYmRhN2EtZGRlMi00YTExLWFhNWUtNjk2YWNmMGNkMThlIn0=
   paypalId: JJGB9L9M98XW
   price: 270
   total: 2
-  sold: 1
+  sold: 0
 - name: Stand Up Paddle no rio Spree
   image: ../images/gifts/standup_paddle.jpg
   bbId: cm49eyJvcHIiOiJwZyIsImlkIjoiOTU4ODcxNWItYzAzMC00NzA4LWE4ZDYtODI3OGQwMGY2ZTAwIn0=
   paypalId: X3H5RK4JWGCVY
   price: 110
   total: 4
-  sold: 4
+  sold: 0
 - name: Sessão de Yoga na praia
   image: ../images/gifts/yoga.jpg
   bbId: cm49eyJvcHIiOiJwZyIsImlkIjoiMWRjNWI3NjUtODA1Zi00ZjI0LThkNTMtZTA4ZDA2NTNjODZiIn0=
@@ -46,28 +46,28 @@
   paypalId: S4RGLE2FXCJCW
   price: 200
   total: 2
-  sold: 1
+  sold: 0
 - name: Viagem para Santorini
   image: ../images/gifts/viagem_santorini.jpg
   bbId: cm49eyJvcHIiOiJwZyIsImlkIjoiMWMxYjUxZDctMWJiNC00MDFlLTliNmMtNGYwZTk5ZjI1NzZhIn0=
   paypalId: VP3RYEW576GBE
   price: 450
   total: 2
-  sold: 2
+  sold: 0
 - name: Passeio de barco pelas ilhas gregas
   image: ../images/gifts/passeio_barco.jpg
   bbId: cm49eyJvcHIiOiJwZyIsImlkIjoiZjE0MWVkODEtNTZhMS00Y2MzLThlNmItYmU2OGVmZGNiMjA5In0=
   paypalId: HJSB6YX9KRM42
   price: 500
   total: 2
-  sold: 2
+  sold: 0
 - name: Café da manhã em Santorini
   image: ../images/gifts/cafe_da_manha.jpg
   bbId: cm49eyJvcHIiOiJwZyIsImlkIjoiYjkxODdmNzUtYzIzNi00NzcwLThlY2EtNGY3YmY5MTBmYTA3In0=
   paypalId: DECGRM4WUSBU8
   price: 170
   total: 2
-  sold: 2
+  sold: 0
 - name: Jantar do casal
   image: ../images/gifts/jantarcasal.jpg
   bbId: cm49eyJvcHIiOiJwZyIsImlkIjoiYzRmM2U2NTctMDQxYS00ZjEzLTk5ZjktZTQyNDA0MWE4MDNhIn0=
@@ -81,28 +81,28 @@
   paypalId: F9X3DQ8GPXWFY
   price: 120
   total: 1
-  sold: 1
+  sold: 0
 - name: Café da tarde durante a viagem
   image: ../images/gifts/cafe_da_tarde.jpg
   bbId: cm49eyJvcHIiOiJwZyIsImlkIjoiYTQ1NzU2YjEtZDdiYi00YzFlLTg3MWUtOTg1NmZmMjM1NzI0In0=
   paypalId: E64AWNRM5Z7EG
   price: 100
   total: 2
-  sold: 2
+  sold: 0
 - name: Degustação de vinhos gregos
   image: ../images/gifts/degustacao.jpg
   bbId: cm49eyJvcHIiOiJwZyIsImlkIjoiYmU3MjYyZGUtMTk1Zi00NWU2LWFmNTQtMGEyMTlmMWE4ODg5In0=
   paypalId: EK4ZCAPF7U4DC
   price: 230
   total: 2
-  sold: 2
+  sold: 0
 - name: Aula de escalada
   image: ../images/gifts/escalada.jpg
   bbId: cm49eyJvcHIiOiJwZyIsImlkIjoiNjAxYmY3YjYtNjM5Yi00OTNjLWE0YzEtZTU4ZjIyYmRkNDJhIn0=
   paypalId: 3J2ZWDTAGNHJN
   price: 300
   total: 2
-  sold: 1
+  sold: 0
 - name: Almoço durante a viagem
   image: ../images/gifts/almoco.jpg
   bbId: cm49eyJvcHIiOiJwZyIsImlkIjoiZTdmNDBmNWYtYjg5MC00M2Q5LTg3ZGItODVlMWNjMzUxNWJmIn0=
@@ -116,7 +116,7 @@
   paypalId: GQPAZFRY2VMNC
   price: 400
   total: 3
-  sold: 1
+  sold: 0
 - name: Cafeteira Philips
   image: ../images/gifts/cafeteira.jpg
   bbId: cm49eyJvcHIiOiJwZyIsImlkIjoiZDJhZDdkYmMtYWNlYy00NjY0LWE2NzQtZGEzZDNmNWJhYTZhIn0=
@@ -151,21 +151,21 @@
   paypalId: 5N4EA5QAEJRBC
   price: 280
   total: 1
-  sold: 1
+  sold: 0
 - name: Conjunto H&M 4 toalhas algodão turco
   image: ../images/gifts/toalhas.jpg
   bbId: cm49eyJvcHIiOiJwZyIsImlkIjoiMmE1YzNlYzUtZTVjNS00M2ZlLThhOWYtZmZiODAxM2RkMGYxIn0=
   paypalId: L4EXLHX3H5TGQ
   price: 200
   total: 1
-  sold: 1
+  sold: 0
 - name: Roupão H&M em linho pros noivos
   image: ../images/gifts/roupao.jpg
   bbId: cm49eyJvcHIiOiJwZyIsImlkIjoiNzdmYjg3NjItZTM4MC00MzZmLThkYmYtOTc0YTVlMDFmOTQ2In0=
   paypalId: FLJJ4FX65N3CE
   price: 150
   total: 2
-  sold: 2
+  sold: 0
 - name: Cesto de arrumação em algodão
   image: ../images/gifts/cesto.jpg
   bbId: cm49eyJvcHIiOiJwZyIsImlkIjoiZjFlNTYzOGYtNDYyMS00YTE0LWJiOGMtMzI0YjljNDk4NWI0In0=
@@ -193,7 +193,7 @@
   paypalId: AR7QG7DTLR5N4
   price: 90
   total: 2
-  sold: 1
+  sold: 0
 - name: Mesas de café H&M Home
   image: ../images/gifts/mesa_cafe.jpg
   bbId: cm49eyJvcHIiOiJwZyIsImlkIjoiZmNiOGM2ZWYtYTc4Zi00OGEwLWI4YTYtMDRkNzNlMWI2OWVhIn0=
@@ -207,7 +207,7 @@
   paypalId: Q8EHHQWXBGH6S
   price: 110
   total: 1
-  sold: 1
+  sold: 0
 - name: Tapete para lateral da banheira
   image: ../images/gifts/tapete_banheira.jpg
   bbId: cm49eyJvcHIiOiJwZyIsImlkIjoiOTcwODdiYjYtNTdhNy00ODZmLWFhNzEtMmI0YWIyNmNhNTVmIn0=
@@ -221,7 +221,7 @@
   paypalId: EV9YHQGPYQBHN
   price: 80
   total: 1
-  sold: 1
+  sold: 0
 - name: Colcha de veludo cama H&M home
   image: ../images/gifts/colcha.jpg
   bbId: cm49eyJvcHIiOiJwZyIsImlkIjoiODhhMWVmZWEtZDVjMy00MzIyLWE3MDMtM2U3MmVlNmQwNTJjIn0=
@@ -242,7 +242,7 @@
   paypalId: UTRYZUEFSVQ62
   price: 120
   total: 1
-  sold: 1
+  sold: 0
 - name: Conjunto de cerâmica
   image: ../images/gifts/conjunto_ceramica.jpg
   bbId: cm49eyJvcHIiOiJwZyIsImlkIjoiOGQ0YmVlYTgtZTJjZC00ZjdhLTg3ZjMtODBjYzYzNDk1N2VhIn0=
@@ -270,4 +270,4 @@
   paypalId: CCWVCNPM958AN
   price: 250
   total: 1
-  sold: 1
+  sold: 0

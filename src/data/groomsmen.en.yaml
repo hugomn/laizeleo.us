@@ -1,34 +1,24 @@
-- name: Caio
-  image: ../images/groomsmen/caio.jpeg
-  description: 
-- name: Chequer
+- name: José
   image: ../images/groomsmen/chequer.jpeg
-  description: 
-- name: Rafa
-  image: ../images/groomsmen/rafa.jpeg
-  description: 
-- name: Mike 
-  image: ../images/groomsmen/mike.jpeg
-  description: 
-- name: Ricardo
-  image: ../images/groomsmen/ricardo.jpeg
-  description: 
-- name: Leo
-  image: ../images/groomsmen/leo.jpeg
-  description: 
-- name: Joninhas
-  image: ../images/groomsmen/jonas.jpeg
-  description: 
-- name: Marat
-  image: ../images/groomsmen/marat.jpeg
-  description: 
-- name: Murilo
-  image: ../images/groomsmen/murilo.jpeg
-  description: 
-- name: Guto
-  image: ../images/groomsmen/guto.jpeg
-  description: 
-- name: Thiago
-  image: ../images/groomsmen/thiago.jpeg
-  description: 
-  
+  description: Um josé qualquer, amigos dos noivos desde X, sempre presente na vida do casal.
+- name: José2
+  image: ../images/groomsmen/chequer.jpeg
+  description: Um josé qualquer, amigos dos noivos desde X, sempre presente na vida do casal.
+- name: José3
+  image: ../images/groomsmen/chequer.jpeg
+  description: Um josé qualquer, amigos dos noivos desde X, sempre presente na vida do casal.
+- name: José4
+  image: ../images/groomsmen/chequer.jpeg
+  description: Um josé qualquer, amigos dos noivos desde X, sempre presente na vida do casal.
+- name: José5
+  image: ../images/groomsmen/chequer.jpeg
+  description: Um josé qualquer, amigos dos noivos desde X, sempre presente na vida do casal.
+- name: José6
+  image: ../images/groomsmen/chequer.jpeg
+  description: Um josé qualquer, amigos dos noivos desde X, sempre presente na vida do casal.
+- name: José7
+  image: ../images/groomsmen/chequer.jpeg
+  description: Um josé qualquer, amigos dos noivos desde X, sempre presente na vida do casal.
+- name: José8
+  image: ../images/groomsmen/chequer.jpeg
+  description: Um josé qualquer, amigos dos noivos desde X, sempre presente na vida do casal.
