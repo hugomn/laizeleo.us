@@ -20,29 +20,6 @@ const Gifts = () => {
       <MainTitle title="index.gifts.title" subtitle="index.gifts.subtitle" />
       <Subtitle mb={5}>{intl.formatMessage({ id: "index.gifts.description" })}</Subtitle>
       <Grid gridTemplateColumns={["auto", "auto", "1fr"]} px={[1, 6]} gridGap={4} mb={[1, 4]}>
-        {/* <Card
-          px={[4, 3]}
-          data-sal="slide-right"
-          data-sal-delay="0"
-          justifyContent="center"
-        >
-          <Grid columns={1} rows="1fr auto" textAlign="center">
-            <Body>
-              <Img src="/img/crowdfunding.svg" mt={4} />
-              <Text fontSize={18} color="dark.1" fontWeight="500" mt="2" mb="2">
-                {intl.formatMessage({ id: "index.gifts.crowdfunding.title" })}
-              </Text>
-              <Text>
-                {intl.formatMessage({
-                  id: "index.gifts.crowdfunding.description",
-                })}
-              </Text>
-            </Body>
-            <BtnLink to={`${url}/crowdfunding`} my="4" mx="4">
-              {intl.formatMessage({ id: "index.gifts.crowdfunding.action" })}
-            </BtnLink>
-          </Grid>
-        </Card> */}
         <Card px={[4, 3]} data-sal="slide-left" data-sal-delay="200" justifyContent="center">
           <Grid columns={1} rows="1fr auto" textAlign="center">
             <Box>
@@ -61,10 +38,6 @@ const Gifts = () => {
     </FixedContainer>
   );
 };
-
-const Body = styled(Box)`
-  ${space};
-`;
 
 const Img = styled.img`
   ${space};
