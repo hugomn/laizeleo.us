@@ -1,18 +1,20 @@
-- name: Nos conhecemos
-  date: 2016-01-01
-  description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, labore.
-- name: Evento 2
-  date: 2016-02-01
-  description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, labore.
-- name: Evento 3
-  date: 2016-12-01
-  description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, labore.
-- name: Evento 4
-  date: 2017-05-01
-  description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, labore.
-- name: Nosso noivado
-  date: 2018-04-01
-  description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, labore.
-- name: Nosso grande dia
-  date: 2025-05-02
-  description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, labore.
+- name: Nos conhecemos no carnaval de Ouro Preto. Dois meses depois, começamos a namorar e nunca mais nos separamos.
+  date: 2012-01-01
+- name: Laiz embarcou para um intercâmbio nos EUA. Mesmo à distância, o amor prevaleceu, com Léo sempre apoiando os sonhos da Laiz.
+  date: 2013-01-01
+- name: Laiz seguiu no intercâmbio, e Léo se mudou pra Viçosa. Passamos o ano 100% à distância, porém sempre juntos em coração.
+  date: 2014-01-01
+- name: Mesmo morando em cidades diferentes, sempre demos um jeito de nos encontrar, viajar e curtir cada oportunidade juntos.
+  date: 2015-01-01
+- name: Laiz se mudou para São Paulo, com Léo sendo seu maior apoio e incentivo em sua nova fase de vida e carreira.
+  date: 2018-01-01
+- name: Durante a pandemia, Laiz se mudou temporariamente pra Viçosa. Passamos por desafios, mas saímos ainda mais fortes como casal.
+  date: 2020-01-02
+- name: Na tentativa de iniciar uma nova vida juntos em São Paulo, Léo recebeu uma proposta no seu trabalho, e voltou para Juiz de Fora.
+  date: 2022-01-01
+- name: Laiz recebeu uma grande oportunidade de trabalho em Curitiba. Léo, sem hesitar, largou tudo e se mudou para começar essa nova jornada juntos.
+  date: 2023-01-01
+- name: "Meses vivendo finalmente juntos trouxeram a certeza: Léo fez o pedido de casamento!"
+  date: 2024-01-01
+- name: Ano em que finalmente vamos oficializar essa história que já era certeza desde o primeiro momento... Ano do nosso grande dia! ❤️
+  date: 2025-01-01

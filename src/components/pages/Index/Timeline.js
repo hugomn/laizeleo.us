@@ -13,11 +13,11 @@ import { Flex } from "../../Flex";
 
 // export const queryPt = graphql`
 //   query TimelinePtQuery {
-    
+
 //   }
 // `;
 
-const TImeline = props => {
+const TImeline = (props) => {
   // const intl = useIntl();
   // const data = useStaticQuery(intl.locale === "pt" ? queryPt : queryEn);
   return (
@@ -35,13 +35,13 @@ const TImeline = props => {
               data-sal={i % 2 ? "slide-left" : "slide-right"}
             >
               <Flex flexDirection="column">
-                <Text display="block" fontWeight="500" color="dark.1">
+                {/* <Text display="block" fontWeight="500" color="dark.1">
                   {node.name}
-                </Text>
-                <Text display="block" color="brand" mt={3}>
+                </Text> */}
+                <Text display="block" fontWeight="500" color="brand" mt={0}>
                   {node.date}
                 </Text>
-                <Text display="block">{node.description}</Text>
+                <Text display="block">{node.name}</Text>
               </Flex>
             </ItemCard>
           ))}
@@ -53,7 +53,7 @@ const TImeline = props => {
 
 const ItemCard = styled(Card)`
   &:before {
-    content: '';
+    content: "";
     color: $white;
     width: 20px;
     height: 20px;
@@ -75,7 +75,7 @@ const ItemCard = styled(Card)`
 const Wrapper = styled(Grid)`
   position: relative;
   &:before {
-    content: '';
+    content: "";
     width: 4px;
     height: 100%;
     background: ${({ theme }) => theme.colors.lightColors[2]};

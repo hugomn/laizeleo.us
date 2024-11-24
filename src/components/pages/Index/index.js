@@ -49,18 +49,18 @@ const Index = (props) => {
         <TimelineBox id="historia" py={["4", "5"]} backgroundColor="lightColors.1">
           <Timeline {...props} />
         </TimelineBox>
-        <Box id="padrinhos" py={["4", "5"]}>
+        {/* <Box id="padrinhos" py={["4", "5"]}>
           <Groomsmen {...props} />
         </Box>
         <Box id="madrinhas" py="5" backgroundColor="lightColors.1">
           <Bridesmaids {...props} />
-        </Box>
+        </Box> */}
         <WhereBox id="onde" pt="5" pb="6">
           <Where />
         </WhereBox>
-        <RsvpBox id="rsvp" pt={["5", "6"]} pb={["6", "7"]}>
+        {/* <RsvpBox id="rsvp" pt={["5", "6"]} pb={["6", "7"]}>
           <Rsvp />
-        </RsvpBox>
+        </RsvpBox> */}
         <Box id="presentes" py="5" backgroundColor="lightColors.1">
           <Gifts />
         </Box>

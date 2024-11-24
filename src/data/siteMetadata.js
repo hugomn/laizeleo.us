@@ -23,10 +23,10 @@ module.exports = {
   menu: [
     { label: "menu.us", slug: "/#os-noivos" },
     { label: "menu.story", slug: "/#historia" },
-    { label: "menu.groomsmen", slug: "/#padrinhos" },
-    { label: "menu.bridesmaids", slug: "/#madrinhas" },
+    // { label: "menu.groomsmen", slug: "/#padrinhos" },
+    // { label: "menu.bridesmaids", slug: "/#madrinhas" },
     { label: "menu.where", slug: "/#onde" },
-    { label: "menu.rsvp", slug: "/#rsvp" },
+    // { label: "menu.rsvp", slug: "/#rsvp" },
     { label: "menu.gifts", slug: "/#presentes" },
   ],
   languages,
