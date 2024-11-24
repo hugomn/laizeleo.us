@@ -1,7 +1,7 @@
 module.exports = {
   title: "Laiz & Leo",
   "header.title": "Laiz & Leo",
-  "menu.us": "Leo & Leiz",
+  "menu.us": "Leo & Laiz",
   "menu.story": "Our Story",
   "menu.where": "Where",
   "menu.groomsmen": "Groomsmen",

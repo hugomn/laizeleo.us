@@ -25,7 +25,7 @@ const messages = { en, pt };
 
 if (typeof window !== "undefined") {
   // eslint-disable-next-line global-require
-  require("smooth-scroll")('a[href*="#"]');
+  require("smooth-scroll")("a[href*=\"#\"]");
 }
 
 const Layout = (props) => {

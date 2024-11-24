@@ -2,7 +2,7 @@ import React from "react";
 import Index from "../components/pages/Index";
 import { graphql } from "gatsby";
 
-export default props => <Index {...props} lang="pt" />;
+export default (props) => <Index {...props} lang="pt" />;
 
 export const pageQuery = graphql`
   query IndexPt {
@@ -10,8 +10,8 @@ export const pageQuery = graphql`
       edges {
         node {
           name
-          date(formatString: "MMMM [de] YYYY", locale: "pt-BR")
-          description
+          date(formatString: "YYYY", locale: "pt-BR")
+          # description
         }
       }
     }

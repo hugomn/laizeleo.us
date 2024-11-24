@@ -1,4 +1,4 @@
-  import React from "react";
+import React from "react";
 import Layout from "../../components/layout";
 import { FixedContainer } from "../../components/FixedContainer";
 import MainTitle from "../../components/MainTitle";

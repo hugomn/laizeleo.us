@@ -24,7 +24,7 @@ module.exports = {
   "us.statement.leo": "Ele é uma pessoa ...",
   "us.statement.laiz": "Ela tem ...",
   "where.description":
-    "Nossa celebração e recepção serão realizadas no <b>Bosque São Pedro</b> (rua Dimas Bergo Xisto, 396 - São Pedro, Juiz de Fora). A cerimônia será às 16h em uma área de gramado. Lembre-se de garantir calçados confortáveis.",
+    "Já são mais de 12 anos desde o início da nossa história, e de lá pra cá, a distância sempre foi nossa companhia certa... Até que o destino nos trouxe pra Curitiba e, encantados pela cidade, decidimos nos estabelecer e construir nossa vida finalmente juntos por aqui. <br/><br/> E por isso a decisão de celebrarmos nosso amor nessa cidade tão especial pra gente! Além disso, acreditamos que a cidade terá muito a oferecer para todos os amigos e familiares presentes, desde uma gastronomia riquíssima, até bares, parques e muitas opções culturais. Por isso, não deixe de aproveitar a oportunidade pra esticar o feriado e conhecer mais dessa região tão apaixonante! <br/><br/><b>Local da Cerimônia: </b><br/>Chácara Luz da Mata<br/> (R. Sebastiana Maria da Silva, 13 - Planta Laranjeiras, Piraquara - PR, 83309-290)",
   "where.action": "Ver no mapa",
   "index.rsvp.title": "RSVP",
   "index.rsvp.subtitle": "Confirme sua presença",
