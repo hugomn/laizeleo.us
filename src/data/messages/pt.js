@@ -67,7 +67,7 @@ module.exports = {
   "crowdfunding.days": "dia",
   "crowdfunding.days.description": "para o grande dia",
   "crowdfunding.choose.one.value": "Escolha alguma dos valores abaixo:",
-  "payment.choose.payment": "Escolha uma forma de pagamento:",
+  "payment.choose.payment": "Obrigado! Escolha como pagar:",
   "payment.transfer.title": "Via transferência ou boleto",
   "payment.transfer.description": "Utilize o botão abaixo para pagar via transferência bancária ou boleto.",
   "payment.transfer.action": "Pagar",
@@ -75,7 +75,8 @@ module.exports = {
   "payment.cc.description": "Utilize o botão abaixo para pagar via cartão de crédito (qualquer bandeira).",
   "payment.cc.action": "Pagar",
   "payment.pix.title": "Transferência direta via Pix",
-  "payment.pix.description": "Faça um pix para <b>hello@hugo.im</b> ou gere um QR code abaixo.",
+  "payment.pix.description":
+    "Faça um pix para <b>hello@hugo.im</b> no valor de R$ {amount} ou utilize o QR code abaixo.",
   "payment.pix.action": "Gerar QR Code",
   "payment.form.title": "Antes de prosseguirmos, nos informe seus dados, e se quiser nos deixe uma mensagem! 🥰",
   "payment.form.name.label": "Nome completo",
