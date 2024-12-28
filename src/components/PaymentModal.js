@@ -82,6 +82,7 @@ function insertCRC16(payload) {
 
 const PaymentModal = (props) => {
   const { contribution, onClose, open } = props;
+  console.log({ contribution });
   const { id } = contribution;
   const [qrCodeUrl, setQrCodeUrl] = useState("");
   const [messageSent, setMessageSent] = useState(false);
@@ -92,7 +93,7 @@ const PaymentModal = (props) => {
         const pixKey = "hello@hugo.im"; // Your PIX key
         const pixName = "HugoNogueira"; // Receiver's name
         const pixCity = "JuizDeFora"; // Receiver's city
-        const pixValue = contribution.amount; // Payment amount (R$100.00)
+        const pixValue = contribution.price; // Payment amount (R$100.00)
         const txId = contribution.id; // Some transaction ID (max 25 chars recommended)
 
         // 2) Build the PIX payload string
@@ -101,7 +102,6 @@ const PaymentModal = (props) => {
           pixName,
           pixCity,
           pixValue,
-          pixDescription,
           txId,
         });
 
