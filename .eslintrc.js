@@ -218,7 +218,7 @@ module.exports = {
     quotes: ["error", "double", { allowTemplateLiterals: true }],
     radix: "error",
     "require-await": "error",
-    "require-jsdoc": "error",
+    "require-jsdoc": "off",
     "rest-spread-spacing": ["error", "never"],
     semi: ["error", "always"],
     "semi-spacing": "off",

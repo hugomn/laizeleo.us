@@ -13,7 +13,7 @@ const GiftCard = ({ gift, onBuy }) => {
   const soldOut = gift.total <= gift.sold;
   return (
     <CardWrapper disabled={soldOut}>
-      <Wrapper columns={1} rows="250px auto">
+      <Wrapper columns={1} rows="300px auto">
         <Cell>
           <Image soldOut={soldOut} sizes={gift.image.childImageSharp.sizes} />
         </Cell>
