@@ -131,8 +131,8 @@ const PaymentModal = (props) => {
       className="email-form"
       name="contributions"
       method="POST"
-      // data-netlify="true"
-      // action="/"
+      data-netlify="true"
+      action="/"
       onSubmit={handleSubmit}
       ref={formRef}
       style={{ display: hidden ? "none" : "block" }}
