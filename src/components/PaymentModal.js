@@ -52,7 +52,6 @@ function buildPixPayload({ pixKey, pixName, pixCity, pixValue, txId }) {
 
   // Insert CRC16 at the end
   const withCRC = insertCRC16(payload);
-  console.log(withCRC);
   return withCRC;
 }
 
@@ -75,14 +74,11 @@ function insertCRC16(payload) {
   }
 
   const hexCrc = crc.toString(16).toUpperCase().padStart(4, "0");
-  // Re-append tag 63, length 04, plus the computed CRC
-  console.log(payload + hexCrc);
   return payload + hexCrc;
 }
 
 const PaymentModal = (props) => {
   const { contribution, onClose, open } = props;
-  console.log({ contribution });
   const { id } = contribution;
   const [qrCodeUrl, setQrCodeUrl] = useState("");
   const [messageSent, setMessageSent] = useState(false);
@@ -107,7 +103,6 @@ const PaymentModal = (props) => {
 
         // 3) Generate a QR Code image (Data URL) from the payload
         const url = await QRCode.toDataURL(payload);
-        console.log({ payload, url });
         setQrCodeUrl(url);
       } catch (error) {
         console.error("Error generating QR code:", error);

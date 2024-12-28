@@ -2,22 +2,13 @@ import React from "react";
 import PropTypes from "prop-types";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import styled, {
-  createGlobalStyle,
-  ThemeProvider,
-  css,
-} from "styled-components";
+import styled, { createGlobalStyle, ThemeProvider, css } from "styled-components";
 import { StaticQuery, graphql, withPrefix } from "gatsby";
 import { IntlProvider, FormattedMessage } from "react-intl";
 import en from "../data/messages/en";
 import pt from "../data/messages/pt";
 import theme from "../themes/theme";
-import {
-  getLangs,
-  getUrlForLang,
-  getCurrentLangKey,
-  isHomePage,
-} from "ptz-i18n";
+import { getLangs, getUrlForLang, getCurrentLangKey, isHomePage } from "ptz-i18n";
 import Helmet from "react-helmet";
 import { color } from "styled-system";
 
@@ -25,7 +16,7 @@ const messages = { en, pt };
 
 if (typeof window !== "undefined") {
   // eslint-disable-next-line global-require
-  require("smooth-scroll")("a[href*=\"#\"]");
+  require("smooth-scroll")('a[href*="#"]');
 }
 
 const Layout = (props) => {
@@ -37,19 +28,11 @@ const Layout = (props) => {
   const homeLink = `/${langKey !== "pt" ? langKey : ""}`;
   const isHome = homeLink.replace(/\/$/, "") === url.replace(/\/$/, "");
   const langs2 = getLangs(langs, langKey, getUrlForLang(homeLink, url));
-  console.log({ langs2 });
   const langsMenu = langs2.map((item) => ({
     ...item,
     link: item.link.replace("//", "/").replace(`/${defaultLangKey}/`, "/"),
   }));
-  console.log({ langsMenu });
-  const {
-    menu,
-    author,
-    sourceCodeLink,
-    siteUrl,
-    description,
-  } = props.data.site.siteMetadata;
+  const { menu, author, sourceCodeLink, siteUrl, description } = props.data.site.siteMetadata;
 
   return (
     <ThemeProvider theme={theme}>
@@ -64,29 +47,19 @@ const Layout = (props) => {
                 <meta property="og:description" content={description} />
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content={url} />
-                <meta
-                  property="og:image"
-                  content={`${siteUrl}${withPrefix("/avatar.jpg")}`}
-                />
+                <meta property="og:image" content={`${siteUrl}${withPrefix("/avatar.jpg")}`} />
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content={txt} />
                 <meta name="twitter:description" content={description} />
                 <meta name="twitter:site" content={`@${author.twitter}`} />
                 <meta name="twitter:author" content={`@${author.twitter}`} />
-                <meta
-                  name="twitter:image"
-                  content={`${siteUrl}${withPrefix("/avatar.jpg")}`}
-                />
+                <meta name="twitter:image" content={`${siteUrl}${withPrefix("/avatar.jpg")}`} />
               </Helmet>
             )}
           </FormattedMessage>
           <Header isHome={isHome} url={url} menu={menu} langs={langsMenu} />
           <Main backgroundColor={backgroundColor}>{children}</Main>
-          <Footer
-            author={author}
-            langs={langsMenu}
-            sourceCodeLink={sourceCodeLink}
-          />
+          <Footer author={author} langs={langsMenu} sourceCodeLink={sourceCodeLink} />
           <GlobalStyle />
         </BodyContainer>
       </IntlProvider>
@@ -97,8 +70,7 @@ const Layout = (props) => {
 const bodyStyle = css`
   color: ${(props) => props.theme.color};
   font-family: ${(props) => props.theme.fonts.Poppins};
-  font-feature-settings: "calt" 1, "clig" 1, "dlig" 1, "kern" 1, "liga" 1,
-    "salt" 1;
+  font-feature-settings: "calt" 1, "clig" 1, "dlig" 1, "kern" 1, "liga" 1, "salt" 1;
   font-weight: 300;
   line-height: ${(props) => props.theme.lineHeight};
 `;

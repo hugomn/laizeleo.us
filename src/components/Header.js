@@ -90,20 +90,12 @@ class Header extends React.Component {
   render() {
     const { langs, menu, url } = this.props;
     const { transparent } = this.state;
-    console.log({ props: this.props });
     return (
       <Wrapper hidden={this.state.hidden} transparent={transparent}>
-        <Flex
-          display="flex"
-          flexDirection="row"
-          justifyContent="space-between"
-          px={3}
-        >
+        <Flex display="flex" flexDirection="row" justifyContent="space-between" px={3}>
           <LogoContainer>
             <Link to="/">
-              <Logo
-                src={transparent ? "/img/logo.svg" : "/img/logo_black.svg"}
-              />
+              <Logo src={transparent ? "/img/logo.svg" : "/img/logo_black.svg"} />
             </Link>
           </LogoContainer>
           <GridWrapper>
@@ -111,11 +103,7 @@ class Header extends React.Component {
               <Menu menu={menu} url={url} transparent={transparent ? 1 : 0} />
             </MenuContainer>
             <LanguageContainer>
-              <SelectLanguage
-                langs={langs}
-                className="select-languages"
-                transparent={transparent ? 1 : 0}
-              />
+              <SelectLanguage langs={langs} className="select-languages" transparent={transparent ? 1 : 0} />
             </LanguageContainer>
           </GridWrapper>
         </Flex>
@@ -125,10 +113,8 @@ class Header extends React.Component {
 }
 
 const Wrapper = styled.header`
-  background: ${(props) =>
-    props.transparent ? "transparent" : "rgba(255, 255, 255, 0.97)"};
-  box-shadow: ${(props) =>
-    props.transparent ? "none" : "0 4px 12px 0 rgba(0,0,0,.05) !important"};
+  background: ${(props) => (props.transparent ? "transparent" : "rgba(255, 255, 255, 0.97)")};
+  box-shadow: ${(props) => (props.transparent ? "none" : "0 4px 12px 0 rgba(0,0,0,.05) !important")};
   transition: all 0.25s ease-out;
   height: ${(props) => `${props.theme.header.height}px`};
   top: ${(props) => (props.hidden ? `-${props.theme.header.height}px` : 0)};
