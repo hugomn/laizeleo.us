@@ -15,6 +15,7 @@ import getFormData from "get-form-data";
 import Textarea from "./Textarea";
 
 import QRCode from "qrcode";
+import { convertId } from "../utils/helpers";
 
 const encode = (data) => {
   return Object.keys(data)
@@ -22,14 +23,15 @@ const encode = (data) => {
     .join("&");
 };
 
-function buildPixPayload({ pixKey, pixName, pixCity, pixValue, txId }) {
+function buildPixPayload({ pixKey, pixDescription, pixName, pixCity, pixValue, txId }) {
   const keyLength = String(pixKey).length;
+  const descriptionLength = String(pixDescription).length;
   const nameLength = String(pixName).length;
   const cityLength = String(pixCity).length;
   const amountStr = pixValue.toFixed(2);
   const amountLength = amountStr.length;
   const txIdLength = txId.length;
-  const subTag26Length = 22 + keyLength;
+  const subTag26Length = 18 + 4 + keyLength + 4 + descriptionLength;
   const subTag62Length = 4 + txIdLength;
 
   let payload = `
@@ -37,6 +39,7 @@ function buildPixPayload({ pixKey, pixName, pixCity, pixValue, txId }) {
     26${String(subTag26Length).padStart(2, "0")}
       0014BR.GOV.BCB.PIX
       01${String(keyLength).padStart(2, "0")}${pixKey}
+      02${String(descriptionLength).padStart(2, "0")}${pixDescription}
     52040000
     5303986
     54${String(amountLength).padStart(2, "0")}${amountStr}
@@ -52,17 +55,19 @@ function buildPixPayload({ pixKey, pixName, pixCity, pixValue, txId }) {
 
   // Insert CRC16 at the end
   const withCRC = insertCRC16(payload);
+  console.log(withCRC);
   return withCRC;
 }
 
 // 2) Insert CRC16, re-adding "6304" before the final 4-hex-digit checksum
 function insertCRC16(payload) {
-  // Remove the "6304" placeholder at the very end
-  // const withoutCRC = payload.replace(/6304$/i, "");
+  const encoder = new TextEncoder();
+  const data = encoder.encode(payload);
+
   let crc = 0xffff;
 
-  for (let i = 0; i < payload.length; i++) {
-    crc ^= payload.charCodeAt(i) << 8;
+  for (let i = 0; i < data.length; i++) {
+    crc ^= data[i] << 8;
     for (let j = 0; j < 8; j++) {
       if (crc & 0x8000) {
         crc = (crc << 1) ^ 0x1021;
@@ -86,15 +91,17 @@ const PaymentModal = (props) => {
     async function generateQRCode() {
       try {
         // 1) Define your PIX data:
-        const pixKey = "hello@hugo.im"; // Your PIX key
+        const pixKey = "pixdopimenta@gmail.com"; // Your PIX key
+        const pixDescription = `Presente Laiz & Leo: ${contribution.name}`; // Payment description
         const pixName = "HugoNogueira"; // Receiver's name
         const pixCity = "JuizDeFora"; // Receiver's city
         const pixValue = contribution.price; // Payment amount (R$100.00)
-        const txId = contribution.id; // Some transaction ID (max 25 chars recommended)
+        const txId = convertId(contribution.id, 25); // Some transaction ID (max 25 chars recommended)
 
         // 2) Build the PIX payload string
         const payload = buildPixPayload({
           pixKey,
+          pixDescription,
           pixName,
           pixCity,
           pixValue,
