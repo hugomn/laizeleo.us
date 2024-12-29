@@ -43,7 +43,7 @@ const Us = () => {
             Léo
           </Text>
           <Text textAlign="center">
-            {intl.formatMessage({ id: "us.statement.leo" })} - <b>Laiz</b>
+            <span dangerouslySetInnerHTML={{ __html: intl.formatMessage({ id: "us.statement.leo" }) }} /> - <b>Laiz</b>
           </Text>
         </Box>
         <Box px={[3, 5]} mb={[4, 4, 0]} data-sal="slide-left" data-sal-delay="200">
@@ -54,7 +54,7 @@ const Us = () => {
             Laiz
           </Text>
           <Text textAlign="center">
-            {intl.formatMessage({ id: "us.statement.laiz" })} - <b>Léo</b>
+            <span dangerouslySetInnerHTML={{ __html: intl.formatMessage({ id: "us.statement.laiz" }) }} /> - <b>Léo</b>
           </Text>
         </Box>
       </Grid>
