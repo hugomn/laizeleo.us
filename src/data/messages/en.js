@@ -8,6 +8,7 @@ module.exports = {
   "menu.bridesmaids": "Bridesmaids",
   "menu.gifts": "Gifts",
   "menu.rsvp": "RSVP",
+  "menu.schedule": "Schedule",
   "index.us.title": "Leo & Laiz",
   "index.us.subtitle": "We are getting married",
   "index.timeline.title": "Our story",

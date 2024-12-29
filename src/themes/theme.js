@@ -5,7 +5,7 @@ const scaleN = (n) => round(Math.pow(1.2, n), 3);
 const scale = (n) => `${scaleN(n)}rem`;
 
 const brandColor = "#FF8C00";
-const accentColors = ["#20B2AA", "#FF1493", "#FF6347", "#FFDAB9"];
+const accentColors = ["#20B2AA", "#FF1493", "#FF6347", "#EED8C3"];
 const dark = ["#333E49", "#484848", "#747474", "#B9C2CE"];
 const lightColors = ["#FFFFFF", "#F6F6F8", "#EFEFEF", "#D7D7D7"];
 
@@ -181,7 +181,7 @@ const theme = {
     padding: `${scale(6)} 0 0 0`,
   },
   h3: {
-    fontSize: scale(1),
+    fontSize: scale(5.8),
     margin: 0,
     padding: `${scale(6)} 0 0 0`,
   },

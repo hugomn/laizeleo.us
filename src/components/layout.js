@@ -91,10 +91,10 @@ const GlobalStyle = createGlobalStyle`
   b, strong {
     font-weight: bold;
   }
-  h1, h2 {
+  h1, h2, h3 {
     font-family: ${(props) => props.theme.fonts.Allura};
   }
-  h3, h4, h5, h6 {
+  h4, h5, h6 {
     font-family: ${(props) => props.theme.fonts.Poppins};
   }
   h1{

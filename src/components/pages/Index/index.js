@@ -9,13 +9,13 @@ import { media } from "../../../constants/responsive";
 import { Box } from "../../Box";
 import Us from "./Us";
 import Timeline from "./Timeline";
-import Groomsmen from "./Groomsmen";
-import Bridesmaids from "./Bridesmaids";
-import Rsvp from "./Rsvp";
 import Where from "./Where";
 import Gifts from "./Gifts";
+import Schedule from "./Schedule";
 import BtnLink from "../../BtnLink";
 import { FormattedMessage } from "react-intl";
+import Dresscode from "./Dresscode";
+import Tips from "./Tips";
 
 const Index = (props) => {
   const { lang } = props;
@@ -55,14 +55,20 @@ const Index = (props) => {
         <Box id="madrinhas" py="5" backgroundColor="lightColors.1">
           <Bridesmaids {...props} />
         </Box> */}
+        <Box id="programacao" py="5" backgroundColor="lightColors.0">
+          <Schedule />
+        </Box>
         <WhereBox id="onde" pt="5" pb="6">
           <Where />
         </WhereBox>
-        {/* <RsvpBox id="rsvp" pt={["5", "6"]} pb={["6", "7"]}>
-          <Rsvp />
-        </RsvpBox> */}
+        <Box id="dress-code" py="5" backgroundColor="lightColors.0">
+          <Dresscode />
+        </Box>
         <Box id="presentes" py="5" backgroundColor="lightColors.1">
           <Gifts />
+        </Box>
+        <Box id="orientacoes" py="5" backgroundColor="lightColors.0">
+          <Tips />
         </Box>
       </Container>
       <Modal
