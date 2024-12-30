@@ -3,7 +3,7 @@ import GiftsList from "../../components/pages/GiftsList";
 import { graphql } from "gatsby";
 import Layout from "../../components/layout";
 
-export default props => (
+export default (props) => (
   <Layout location={props.location} backgroundColor="lightColors.1">
     <GiftsList {...props} />
   </Layout>
@@ -16,16 +16,16 @@ export const pageQuery = graphql`
         node {
           id
           name
-          bbId
-          paypalId
+          # bbId
+          # paypalId
           price
           total
           sold
           image {
-            childImageSharp{
-                sizes(maxWidth: 750) {
-                    ...GatsbyImageSharpSizes
-                }
+            childImageSharp {
+              sizes(maxWidth: 750) {
+                ...GatsbyImageSharpSizes
+              }
             }
           }
         }

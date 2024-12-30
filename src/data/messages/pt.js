@@ -39,7 +39,7 @@ module.exports = {
   "index.gifts.title": "Presentes",
   "index.gifts.subtitle": "Agradecemos o carinho",
   "index.gifts.description":
-    "Nosso maior presente será celebrar esse momento tão especial com vocês! Moramos em Berlim, o que nos impossibilita levar presentes na mala. Por isso criamos a opção de presentear-nos ajudando a nossa campanha de financiamento colaborativo do nosso grande dia! E se você desejar, também tem a opção de nos presentear com alguma experiência ou algo do nosso dia-a-dia.",
+    "Nosso maior presente será celebrar esse momento tão especial com vocês! Mas pra quem desejar nos presentear com alguma experiência ou algo do nosso dia-a-dia, reservamos algumas opções especiais, pensadas com muito carinho.",
   "index.gifts.crowdfunding.title": "Contribuir com o nosso dia",
   "index.gifts.crowdfunding.description":
     "Deseja nos presentear com a sua participação na nossa campanha de arrecadação?",
@@ -93,7 +93,9 @@ module.exports = {
   "payment.cc.action": "Pagar",
   "payment.pix.title": "Transferência direta via Pix",
   "payment.pix.description":
-    "Faça um pix para <b>hello@hugo.im</b> no valor de R$ {amount} ou utilize o QR code abaixo.",
+    "Faça um pix para <b>pixdopimenta@gmail.com</b> no valor de R$ {amount} ou utilize o QR code abaixo.",
+  "payment.pix.descriptionEmpty":
+    "Faça um pix para <b>pixdopimenta@gmail.com</b> com o valor que desejar ou utilize o QR code abaixo.",
   "payment.pix.action": "Gerar QR Code",
   "payment.form.title": "Antes de prosseguirmos, nos informe seus dados, e se quiser nos deixe uma mensagem! 🥰",
   "payment.form.name.label": "Nome completo",
@@ -105,8 +107,9 @@ module.exports = {
   "payment.form.confirm": "Enviar e realizar pagamento",
   "crowdfunding.action": "Contribuir",
   "gifts.description":
-    "Nossa casa em Berlim já está quase pronta, e não conseguimos levar nada na mala. Então nossa lista de presentes é um mix que vai desde experiências que nós dois ainda não vivemos e vão gerar ótimos momentos de lazer e relaxamento até itens para complementar no nosso lar!",
+    "Nosso maior presente será celebrar esse momento tão especial com vocês! Mas pra quem desejar nos presentear com alguma experiência ou algo do nosso dia-a-dia, reservamos algumas opções especiais, pensadas com muito carinho.",
   "gifts.buy": "Presentear",
+  "gifts.items.free": "{count, plural, one {# item} other {# itens}} de valor livre",
   "gifts.items.of": "{count, plural, one {# item} other {# itens}} de",
   "gifts.items.missing": "{count, plural, one {falta # item} other {faltam # itens}}",
   "gifts.action": "Presentear",

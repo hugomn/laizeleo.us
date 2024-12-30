@@ -34,7 +34,7 @@ module.exports = {
   "index.gifts.title": "Gifts",
   "index.gifts.subtitle": "We appreciate your kindness",
   "index.gifts.description":
-    "Our greatest gift will be to celebrate this special moment with you! We live in Berlin, which makes it impossible for us to carry gifts in the suitcase. That's why we created the option of giving ourselves a gift by helping our crowdfunding campaign for our big day! And if you wish, you also have the option of giving us some experience or something from our daily lives.",
+    "Our greatest gift will be celebrating this special moment with you! But for those who wish to gift us with an experience or something for our daily lives, we have selected some special options, chosen with great care.",
   "index.gifts.crowdfunding.title": "Join our campaing",
   "index.gifts.crowdfunding.description":
     "Do you want to give us a gift with your participation in our fundraising campaign?",
@@ -68,7 +68,8 @@ module.exports = {
   "crowdfunding.choose.one.value": "Please choose one of the values below:",
   "payment.choose.payment": "Please choose one payment method:",
   "payment.pix.title": "Direct pix transfer",
-  "payment.pix.description": "Pix for <b>hello@hugo.im</b> or generate QR code (BR only).",
+  "payment.pix.description": "Pix for <b>pixdopimenta@gmail.com</b> or generate QR code (BR only).",
+  "payment.pix.descriptionEmpty": "Pix for <b>pixdopimenta@gmail.com</b> or generate QR code (BR only).",
   "payment.pix.action": "Generate QR Code",
   "payment.transfer.title": "Brazilian Bank transfer",
   "payment.transfer.description": "Pay using a bank transfer (Brazil only)",
@@ -86,7 +87,7 @@ module.exports = {
   "payment.form.confirm": "Submit and go to payment",
   "crowdfunding.action": "Contribute",
   "gifts.description":
-    "As we already have our little cozy space in Berlin almost ready and there is not much space in the suitcase, we thought that our list of gifts could be a mixture of special experiences that we have not yet lived and some little things that will provide us with moments of leisure and relaxation.",
+    "Our greatest gift will be celebrating this special moment with you! But for those who wish to gift us with an experience or something for our daily lives, we have selected some special options, chosen with great care.",
   "gifts.buy": "Buy",
   "gifts.items.of": "{count, plural, one {# item} other {# items}} costing",
   "gifts.items.missing": "{count, plural, one {# missing} other {# missing}}",
