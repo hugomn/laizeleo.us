@@ -11,6 +11,7 @@ import Us from "./Us";
 import Timeline from "./Timeline";
 import Where from "./Where";
 import Gifts from "./Gifts";
+import Rsvp from "./Rsvp";
 import Schedule from "./Schedule";
 import BtnLink from "../../BtnLink";
 import { FormattedMessage } from "react-intl";
@@ -61,6 +62,9 @@ const Index = (props) => {
         <WhereBox id="onde" pt="5" pb="6">
           <Where />
         </WhereBox>
+        <RsvpBox id="rsvp" pt={["4", "5"]} pb={["4", "5"]}>
+          <Rsvp />
+        </RsvpBox>
         <Box id="dress-code" py="5" backgroundColor="lightColors.0">
           <Dresscode />
         </Box>

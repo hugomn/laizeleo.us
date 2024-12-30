@@ -24,7 +24,13 @@ const GiftCard = ({ gift, onBuy }) => {
                 {gift.name}
               </Title>
               <Text fontSize={1}>
-                {f({ id: "gifts.items.of" }, { count: gift.total })} <Price>R$ {gift.price}</Price>
+                {gift.price ? (
+                  <span>
+                    {f({ id: "gifts.items.of" }, { count: gift.total })} <Price>R$ {gift.price}</Price>
+                  </span>
+                ) : (
+                  f({ id: "gifts.items.free" }, { count: gift.total })
+                )}
               </Text>
               <Text fontSize={1} mb={3}>
                 {f({ id: soldOut ? "gifts.soldout" : "gifts.items.missing" }, { count: gift.total - gift.sold })}
@@ -96,7 +102,7 @@ const Image = styled(Img)`
 GiftCard.propTypes = {
   gifts: PropTypes.shape({
     img: PropTypes.string,
-    name: PropTypes.string.isRequired
+    name: PropTypes.string.isRequired,
   }),
 };
 
