@@ -11,7 +11,7 @@ export default (props) => (
 
 export const pageQuery = graphql`
   query ListaEnQuery {
-    gifts: allGiftsEnYaml {
+    gifts: allGiftsEnYaml(sort: { fields: price }) {
       edges {
         node {
           id

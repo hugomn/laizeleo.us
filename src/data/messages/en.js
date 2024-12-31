@@ -9,6 +9,8 @@ module.exports = {
   "menu.gifts": "Gifts",
   "menu.rsvp": "RSVP",
   "menu.schedule": "Schedule",
+  "menu.dresscode": "Dress code",
+  "menu.tips": "Tips",
   "index.us.title": "Leo & Laiz",
   "index.us.subtitle": "We are getting married",
   "index.timeline.title": "Our story",
@@ -23,13 +25,15 @@ module.exports = {
   "index.rsvp.subtitle": "Confirm your attendance",
   "page.crowdfunding.title": "Crowdfunding",
   "page.crowdfunding.subtitle": "Our dream shared",
-  "us.statement.leo": "He is an ...",
-  "us.statement.laiz": "She has ...",
+  "us.statement.leo":
+    "He turns any moment into something special. Since our first glance back in 2012, I fell in love with his calm, tranquil, attentive, and caring nature. Over these 12 years together, he has always believed in me, celebrated my victories, and been the best friend and partner I could ever dream of during difficult times.<br><br>Intelligent and rational, he is naturally curious and relentless in his pursuit of perfection in everything he sets out to do. Methodical, detail-oriented, and a collector of hobbies, he dives deep into each one of them — from coins and spiders to stock market investments, always with the same dedication and interest.<br><br>He is someone who genuinely cares about the people around him, an amazing boyfriend, son, brother, friend, and the best pet dad anyone has ever seen! Honest and fair, he doesn’t take shortcuts and makes sure to always do the right thing.<br><br>He is, without a doubt, my safe haven and the person I chose to spend every day of my life with.",
+  "us.statement.laiz":
+    "She has a unique way of winning everyone over. Intelligent and communicative like no one else, Laiz shines wherever she goes. Highly competent, she is admired by everyone at work, where her talent is undeniable. In addition, she has a beauty that combines elegance with a smile capable of brightening anyone's day!<br><br>She makes friends as easily as she breathes and has a special talent for making everyone around her happier. She is always thinking about how to please others, whether with a small gift, a cheese bread, or just the right word at the right time. For her, family is one of the most important pillars, and even living far away, she finds a way to always be present, caring, and showing her love.<br><br>Laiz is passionate about traveling and wants to explore every corner of this planet, but for her, it will only be worthwhile if she’s with the best company. She also knows how to enjoy the simple pleasures in life: an artisanal burger, lively bars, parties, and, of course, a good nap on the couch on a rainy Sunday afternoon. She is the perfect balance between energy and tranquility. Laiz is, without a doubt, that person who transforms any ordinary day into something extraordinary.",
   "where.description":
-    "Our celebration and reception will be held at <b>Bosque São Pedro</b> (Address: Rua Dimas Bergo Xisto, 396 - São Pedro) in the city Juiz de Fora / Minas Gerais State in Brazil. The ceremony will be at 4 pm in a grassy area. Remember to ensure comfortable shoes.",
+    "It’s been more than 12 years since the beginning of our story, and since then, distance has always been a constant companion... Until fate brought us to Curitiba, and enchanted by the city, we decided to settle down and finally build our lives together here.<br/><br/>That’s why we chose to celebrate our love in this city that means so much to us! Additionally, we believe the city has so much to offer to all friends and family attending, from its rich gastronomy to bars, parks, and countless cultural options. So don’t miss the chance to extend your holiday and explore more of this captivating region!<br/><br/><b>Ceremony Location: </b><br/>Chácara Luz da Mata<br/> (R. Sebastiana Maria da Silva, 13 - Planta Laranjeiras, Piraquara - PR, 83309-290)",
   "where.action": "See on map",
   "index.rsvp.description":
-    "Having you with us in our special day will be a great joy! Please confirm your presence by February 28th, 2022.",
+    "Having you with us in our special day will be a great joy! Please confirm your presence by May 15h, 2025.",
   "index.rsvp.action": "Confirm presence",
   "index.gifts.title": "Gifts",
   "index.gifts.subtitle": "We appreciate your kindness",
@@ -43,6 +47,17 @@ module.exports = {
   "index.gifts.list.description": "Do you want to give us an experience or something we don't have in our house yet?",
   "index.gifts.list.action": "See gifts list",
   "index.announcement.action": "View full note",
+  "index.schedule.title": "Schedule",
+  "index.schedule.subtitle": "Agenda for our day",
+  "index.schedule.description":
+    "For those who can arrive early and leave later, taking advantage of the holiday week, we have some recommendations:<br><br><strong>- 05/01:</strong> Perfect for enjoying the many tourist spots, bars, and restaurants in the city. For that, we suggest the Linha Turismo, a special double-decker bus line that visits 26 attractions in Curitiba. The tourism card costs R$50.00 and allows unlimited boardings within a 24-hour period after the first boarding. More information: <a href='https://www.urbs.curitiba.pr.gov.br/transporte/linha-turismo' target='_blank'>https://www.urbs.curitiba.pr.gov.br/transporte/linha-turismo</a><br><br><strong>- 05/02:</strong> The craziest day of the year, <em>'doidimai'</em>, our big day! It will take place at Chácara Luz da Mata, and we are arranging van options for more comfortable transportation to the venue. But for those who prefer, Uber is also a valid and recommended option.<br><br><strong>- 05/03:</strong> Hangover barbecue for the strong ones. Don't miss the opportunity to extend your stay and join us for another day of celebration!",
+  "index.tips.title": "Tips",
+  "index.tips.subtitle": "Travel advice",
+  "index.tips.description": "",
+  "index.dresscode.title": "Dress code",
+  "index.dresscode.subtitle": "What to wear",
+  "index.dresscode.description":
+    "The official attire for the wedding is <b>Smart Casual</b>.<br><br>💃🏼 <strong>For Her:</strong><br/> Long or midi dresses, whether structured or flowy, embroidered or plain, with ruffles or patterns. The most important thing is that you feel absolutely stunning and comfortable!<br><br/>🚫 <strong>What to avoid?</strong><br/> Shades of white, nude, and very light colors that might, depending on the lighting, resemble white.<br><br>🕺🏼 <strong>For Him:</strong><br/> For men, it's very simple: we suggest dress pants, a shirt, and a blazer; a tie is optional.<br><br/>🚫 <strong>What to avoid?</strong><br/> Avoid jeans, short-sleeved shirts, and casual outfits.",
   "rsvp.description":
     "Please enter your data below to confirm your attendance. <br/><b>Important</b>: please confirm one person at a time. Children under the age of 7 do not need confirmation.",
   "rsvp.form.name.label": "Name",

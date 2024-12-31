@@ -15,35 +15,35 @@ export const pageQuery = graphql`
         }
       }
     }
-    groomsmen: allGroomsmenPtYaml(sort: { fields: name }) {
-      edges {
-        node {
-          name
-          description
-          image {
-            childImageSharp {
-              sizes(maxWidth: 750) {
-                ...GatsbyImageSharpSizes
-              }
-            }
-          }
-        }
-      }
-    }
-    bridesmaids: allBridesmaidsPtYaml(sort: { fields: name }) {
-      edges {
-        node {
-          name
-          description
-          image {
-            childImageSharp {
-              sizes(maxWidth: 750) {
-                ...GatsbyImageSharpSizes
-              }
-            }
-          }
-        }
-      }
-    }
+    # groomsmen: allGroomsmenPtYaml(sort: { fields: name }) {
+    #   edges {
+    #     node {
+    #       name
+    #       description
+    #       image {
+    #         childImageSharp {
+    #           sizes(maxWidth: 750) {
+    #             ...GatsbyImageSharpSizes
+    #           }
+    #         }
+    #       }
+    #     }
+    #   }
+    # }
+    # bridesmaids: allBridesmaidsPtYaml(sort: { fields: name }) {
+    #   edges {
+    #     node {
+    #       name
+    #       description
+    #       image {
+    #         childImageSharp {
+    #           sizes(maxWidth: 750) {
+    #             ...GatsbyImageSharpSizes
+    #           }
+    #         }
+    #       }
+    #     }
+    #   }
+    # }
   }
 `;
