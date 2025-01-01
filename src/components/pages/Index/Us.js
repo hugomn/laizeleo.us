@@ -46,7 +46,7 @@ const Us = () => {
             <span dangerouslySetInnerHTML={{ __html: intl.formatMessage({ id: "us.statement.leo" }) }} /> - <b>Laiz</b>
           </Text>
         </Box>
-        <Box px={[3, 5]} mb={[4, 4, 0]} data-sal="slide-left" data-sal-delay="200">
+        <Box px={[3, 5]} mb={[4, 4, 0]} data-sal="slide-left" data-sal-delay="0">
           <Box px={[5]}>
             <Img sizes={data.brideImage.childImageSharp.sizes} />
           </Box>

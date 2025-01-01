@@ -57,9 +57,9 @@ module.exports = {
   "index.tips.subtitle": "Dicas de viagem",
   "index.tips.description": "",
   "index.dresscode.title": "Dress code",
-  "index.dresscode.subtitle": "What to wear",
+  "index.dresscode.subtitle": "O que vestir",
   "index.dresscode.description":
-    "The official attire for the wedding is <b>Smart Casual</b>.<br><br>💃🏼 <strong>For Her:</strong><br/> Long or midi dresses, whether structured or flowy, embroidered or plain, with ruffles or patterns. The most important thing is that you feel absolutely stunning and comfortable!<br><br/>🚫 <strong>What to avoid?</strong><br/> Shades of white, nude, and very light colors that might, depending on the lighting, resemble white.<br><br>🕺🏼 <strong>For Him:</strong><br/> For men, it's very simple: we suggest dress pants, a shirt, and a blazer; a tie is optional.<br><br/>🚫 <strong>What to avoid?</strong><br/> Avoid jeans, short-sleeved shirts, and casual outfits.",
+    "O traje oficial do casamento é <b>Esporte Fino</b>.<br><br>💃🏼 <strong>Para Elas:</strong><br/> Vestidos longos ou mid, sejam eles estruturados ou fluidos, bordados ou lisos, com babados ou estampados. O mais importante mesmo é você se sentir extremamente linda e confortável!<br><br/>🚫 <strong>O que evitar?</strong><br/> Tons de branco, nude e cores muito clarinhas que possam, dependendo da luz, se assemelhar ao branco.<br><br>🕺🏼 <strong>Para Eles:</strong><br/> Para os homens, é muito fácil: sugerimos calça social, camisa e blazer; gravata opcional.<br><br/>🚫 <strong>O que evitar?</strong><br/> Evite jeans, camisas de manga curta e looks casuais.",
   "rsvp.description":
     "Por favor, preencha o formulário abaixo para confirmar sua presença. <br/><b>Importante</b>: confirme um convidado por vez. Crianças abaixo de 7 anos não precisam de confirmação.",
   "rsvp.form.name.label": "Nome completo",
