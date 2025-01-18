@@ -20,13 +20,13 @@
   sold: 0
 - name: Liquidificador
   image: ../images/gifts/liquidificador.png
-  price: 249.0
-  total: 1
+  price: 124.50
+  total: 2
   sold: 0
 - name: Processador de alimentos
   image: ../images/gifts/processador_de_alimentos.png
-  price: 399.0
-  total: 1
+  price: 133.0
+  total: 3
   sold: 0
 - name: Robô Aspirador
   image: ../images/gifts/robo_aspirador.png
@@ -40,8 +40,8 @@
   sold: 0
 - name: TV para o quarto
   image: ../images/gifts/tv_para_o_quarto.png
-  price: 550.0
-  total: 2
+  price: 183.33
+  total: 6
   sold: 0
 - name: Mesa de canto
   image: ../images/gifts/mesa_de_canto.png
@@ -50,8 +50,8 @@
   sold: 0
 - name: Mesa de jantar
   image: ../images/gifts/mesa_de_jantar.png
-  price: 424.75
-  total: 4
+  price: 283.17
+  total: 6
   sold: 0
 - name: Sapateira
   image: ../images/gifts/sapateira.png
@@ -65,13 +65,13 @@
   sold: 0
 - name: 1 ano de ração para a Amy
   image: ../images/gifts/1_ano_de_racao_para_a_amy.png
-  price: 229.67
-  total: 3
+  price: 172.25
+  total: 4
   sold: 0
 - name: 3 meses de hambúrguer para a Laiz
   image: ../images/gifts/3_meses_de_hamburguer_para_a_laiz.png
-  price: 195.0
-  total: 2
+  price: 130.0
+  total: 3
   sold: 0
 - name: Óculos escuros para o Léo
   image: ../images/gifts/oculos_escuros_para_o_leo.png
@@ -85,8 +85,8 @@
   sold: 0
 - name: Aparelho de jantar
   image: ../images/gifts/aparelho_de_jantar.png
-  price: 400.0
-  total: 5
+  price: 333.0
+  total: 6
   sold: 0
 - name: Cortina
   image: ../images/gifts/cortina.png
@@ -140,8 +140,8 @@
   sold: 0
 - name: Hotel Lua de Mel
   image: ../images/gifts/hotel_lua_de_mel.png
-  price: 499.0
-  total: 10
+  price: 415.83
+  total: 12
   sold: 0
 - name: Jantar especial de Lua de Mel
   image: ../images/gifts/jantar_especial_de_lua_de_mel.png

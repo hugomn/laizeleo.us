@@ -16,9 +16,10 @@ const Tips = () => {
             <br />
             <strong>HOTEIS:</strong>
             <br />
-            Para melhor conforto de todos, fechamos parcerias com hospedagens em alguns hoteis para garantir um preço
-            diferenciado para os convidados. Sugerimos a reserva o quanto antes, por ser um feriado que, em geral, tem
-            bastante procura na cidade.
+            Para melhor conforto de todos, listamos abaixo alguns hoteis bem avaliados e com boa localização. Mas
+            Curitiba tem uma ampla rede e opções diversas disponíveis em plataformas como o{" "}
+            <a href="https://www.booking.com">Booking.com</a>. Sugerimos a reserva o quanto antes, por ser um feriado
+            que, em geral, tem bastante procura na cidade. Contem com a gente se precisarem se ajuda!
             <br />
             <br />
             1. <strong>Moov Hotel:</strong>
@@ -185,8 +186,11 @@ const Tips = () => {
             <br />
             <strong>HOTELS:</strong>
             <br />
-            For everyone’s comfort, we have partnered with some hotels to ensure a special price for our guests. We
-            recommend booking as soon as possible, as it is a holiday period that tends to be in high demand.
+            For everyone's convenience, we have listed some highly-rated hotels with good locations below. However,
+            Curitiba offers a wide range of accommodations available on platforms like{" "}
+            <a href="https://www.booking.com">Booking.com</a>. We recommend booking as soon as possible, as it is a
+            holiday period with typically high demand in the city. Feel free to reach out to us if you need any
+            assistance!
             <br />
             <br />
             1. <strong>Moov Hotel:</strong>
