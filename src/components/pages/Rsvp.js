@@ -4,14 +4,10 @@ import Subtitle from "../Subtitle";
 import MainTitle from "../MainTitle";
 import { FixedContainer } from "../FixedContainer";
 import styled from "styled-components";
-import Card from "../Card";
-import { Flex } from "../Flex";
-import Button from "../Button";
 import BtnLink from "../BtnLink";
 import { Box } from "../Box";
 import { useIntl } from "react-intl";
-import { Input } from "../Input";
-import { Label } from "../Label";
+import Link from "../Link";
 
 const Rsvp = (props) => {
   const intl = useIntl();
@@ -45,19 +41,14 @@ const Rsvp = (props) => {
               }}
             />
           </Subtitle>
-          <Card
-            p={["18px", 5]}
-            mt={[4, 5]}
-            mx={[1, 3, 5, 7]}
-            textAlign="center"
-          >
-            <Form
-              className="email-form"
-              name="rsvp"
-              method="POST"
-              data-netlify="true"
-              action="/rsvp/sucesso"
-            >
+          <Box textAlign="center" mt={3}>
+            <Link mt={4} px={5} width="auto" href="https://wa.me/554199215841" target="_blank">
+              {intl.formatMessage({ id: "rsvp.action" })}
+            </Link>
+          </Box>
+
+          {/* <Card p={["18px", 5]} mt={[4, 5]} mx={[1, 3, 5, 7]} textAlign="center">
+            <Form className="email-form" name="rsvp" method="POST" data-netlify="true" action="/rsvp/sucesso">
               <Flex flexDirection="column">
                 <Input type="hidden" name="form-name" value="rsvp" />
                 <Label htmlFor="name" fontWeight="500">
@@ -99,20 +90,9 @@ const Rsvp = (props) => {
                   required
                   mb="4"
                 />
-                <Label htmlFor="kids">
-                  {intl.formatMessage({ id: "rsvp.form.kids.label" })}
-                </Label>
-                <Input
-                  type="number"
-                  name="kids"
-                  id="kids"
-                  min="0"
-                  max="4"
-                  mb="4"
-                />
-                <Label htmlFor="comment">
-                  {intl.formatMessage({ id: "rsvp.form.comment.label" })}
-                </Label>
+                <Label htmlFor="kids">{intl.formatMessage({ id: "rsvp.form.kids.label" })}</Label>
+                <Input type="number" name="kids" id="kids" min="0" max="4" mb="4" />
+                <Label htmlFor="comment">{intl.formatMessage({ id: "rsvp.form.comment.label" })}</Label>
                 <Input
                   type="text"
                   name="comment"
@@ -123,12 +103,10 @@ const Rsvp = (props) => {
                   required
                   mb="5"
                 />
-                <Button type="submit">
-                  {intl.formatMessage({ id: "rsvp.form.confirm" })}
-                </Button>
+                <Button type="submit">{intl.formatMessage({ id: "rsvp.form.confirm" })}</Button>
               </Flex>
             </Form>
-          </Card>
+          </Card> */}
         </>
       )}
     </FixedContainer>
