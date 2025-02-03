@@ -93,9 +93,9 @@ module.exports = {
   "payment.cc.action": "Pagar",
   "payment.pix.title": "Transferência direta via Pix",
   "payment.pix.description":
-    "Faça um pix para <b>pixdopimenta@gmail.com</b> no valor de R$ {amount} ou utilize o QR code abaixo.",
+    "Faça um pix para <b>pixdopimenta@gmail.com</b> no valor de R$ {amount}. Você pode também utilizar o QR code ou copiar o código abaixo.",
   "payment.pix.descriptionEmpty":
-    "Faça um pix para <b>pixdopimenta@gmail.com</b> com o valor que desejar ou utilize o QR code abaixo.",
+    "Faça um pix para <b>pixdopimenta@gmail.com</b> com o valor que desejar. Você pode também utilizar o QR code ou copiar o código abaixo.",
   "payment.pix.action": "Gerar QR Code",
   "payment.form.title": "Antes de prosseguirmos, nos informe seus dados, e se quiser nos deixe uma mensagem! 🥰",
   "payment.form.name.label": "Nome completo",
