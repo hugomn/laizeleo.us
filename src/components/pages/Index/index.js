@@ -99,8 +99,9 @@ const AnnouncementImg = styled.img`
 
 const TimelineBox = styled(Box)`
   background-image: url("/img/timeline_bg.jpg");
-  background-position: right bottom;
+  background-position: left top;
   background-repeat: no-repeat;
+  background-size: cover;
 `;
 
 const RsvpBox = styled(Box)`
@@ -112,7 +113,7 @@ const RsvpBox = styled(Box)`
 
 const WhereBox = styled(Box)`
   background-image: url("/img/where_bg.jpg");
-  background-position: bottom center;
+  background-position: top right;
   background-repeat: no-repeat;
   background-size: cover;
 `;
