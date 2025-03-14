@@ -1,7 +1,160 @@
-- name: Batedeira planetária
+- name: Planetary Mixer
   image: ../images/gifts/batedeira.png
-  bbId: cm49eyJvcHIiOiJwZyIsImlkIjoiMGNhMDEwNTMtNWZlYi00OWQ1LTk5ODQtNjQzN2VjZTBlZTJlIn0=
-  paypalId: 3WUYSPTXJWWPS
   price: 299.95
   total: 2
+  sold: 0
+- name: Built-in Stove
+  image: ../images/gifts/fogao.png
+  price: 399.92
+  total: 13
+  sold: 0
+- name: Refrigerator
+  image: ../images/gifts/geladeira.png
+  price: 329.9
+  total: 10
+  sold: 0
+- name: Dishwasher
+  image: ../images/gifts/lavalouca.png
+  price: 219.9
+  total: 10
+  sold: 0
+- name: Blender
+  image: ../images/gifts/liquidificador.png
+  price: 124.50
+  total: 2
+  sold: 0
+- name: Food Processor
+  image: ../images/gifts/processador_de_alimentos.png
+  price: 133.0
+  total: 3
+  sold: 0
+- name: Robot Vacuum
+  image: ../images/gifts/robo_aspirador.png
+  price: 769.99
+  total: 5
+  sold: 0
+- name: Toaster
+  image: ../images/gifts/torradeira.png
+  price: 189.0
+  total: 1
+  sold: 0
+- name: Bedroom TV
+  image: ../images/gifts/tv_para_o_quarto.png
+  price: 183.33
+  total: 6
+  sold: 0
+- name: Side Table
+  image: ../images/gifts/mesa_de_canto.png
+  price: 239.0
+  total: 1
+  sold: 0
+- name: Dining Table
+  image: ../images/gifts/mesa_de_jantar.png
+  price: 283.17
+  total: 6
+  sold: 0
+- name: Shoe Rack
+  image: ../images/gifts/sapateira.png
+  price: 479.9
+  total: 1
+  sold: 0
+- name: Sofa
+  image: ../images/gifts/sofa.png
+  price: 299.88
+  total: 8
+  sold: 0
+- name: 1 Year of Food for Amy
+  image: ../images/gifts/1_ano_de_racao_para_a_amy.png
+  price: 172.25
+  total: 4
+  sold: 0
+- name: 3 Months of Burgers for Laiz
+  image: ../images/gifts/3_meses_de_hamburguer_para_a_laiz.png
+  price: 130.0
+  total: 3
+  sold: 0
+- name: Sunglasses for Léo
+  image: ../images/gifts/oculos_escuros_para_o_leo.png
+  price: 299.5
+  total: 2
+  sold: 0
+- name: Group Gift for Saturday’s BBQ
+  image: ../images/gifts/vaquinha_para_o_churrasco_de_sabado.png
+  price: 
+  total: 50
+  sold: 0
+- name: Dinnerware Set
+  image: ../images/gifts/aparelho_de_jantar.png
+  price: 333.0
+  total: 6
+  sold: 0
+- name: Curtains
+  image: ../images/gifts/cortina.png
+  price: 279.0
+  total: 1
+  sold: 0
+- name: Comforter
+  image: ../images/gifts/edredom.png
+  price: 319.0
+  total: 1
+  sold: 0
+- name: Cutlery Set
+  image: ../images/gifts/faqueiro.png
+  price: 349.0
+  total: 1
+  sold: 1
+- name: Placemats
+  image: ../images/gifts/jogo_americano.png
+  price: 159.99
+  total: 2
+  sold: 0
+- name: Bed Sheet Set
+  image: ../images/gifts/jogo_de_lencol.png
+  price: 269.99
+  total: 2
+  sold: 0
+- name: BBQ Knife Set
+  image: ../images/gifts/jogo_de_facas_para_churrasco.png
+  price: 479.9
+  total: 1
+  sold: 0
+- name: Towel Set
+  image: ../images/gifts/jogo_de_toalhas.png
+  price: 349.0
+  total: 1
+  sold: 0
+- name: Hammock and Hooks
+  image: ../images/gifts/rede_e_ganchos.png
+  price: 429.0
+  total: 1
+  sold: 0
+- name: Pillows
+  image: ../images/gifts/travesseiros.png
+  price: 249.0
+  total: 2
+  sold: 0
+- name: City Tour on Honeymoon
+  image: ../images/gifts/city_tour_na_lua_de_mel.png
+  price: 250.0
+  total: 2
+  sold: 0
+- name: Honeymoon Hotel
+  image: ../images/gifts/hotel_lua_de_mel.png
+  price: 415.83
+  total: 12
+  sold: 0
+- name: Special Honeymoon Dinner
+  image: ../images/gifts/jantar_especial_de_lua_de_mel.png
+  price: 250.0
+  total: 4
+  sold: 2
+- name: Plane Ticket for Honeymoon
+  image: ../images/gifts/passagem_de_aviao_para_a_lua-de-mel.png
+  price: 999.0
+  total: 5
+  sold: 0
+- name: Plane Ticket to Visit Family in JF
+  image: ../images/gifts/passagem_de_aviao_pra_visitar_familia_em_jf.png
+  price: 500.0
+  total: 4
   sold: 0

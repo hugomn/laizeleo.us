@@ -102,7 +102,7 @@
   image: ../images/gifts/faqueiro.png
   price: 349.0
   total: 1
-  sold: 0
+  sold: 1
 - name: Jogo americano
   image: ../images/gifts/jogo_americano.png
   price: 159.99
