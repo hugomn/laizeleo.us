@@ -32,9 +32,9 @@ const Us = () => {
 
   return (
     <FixedContainer>
-      <MainTitle mb={4} title="index.us.title" subtitle="index.us.subtitle" />
+      <MainTitle mb={0} title="index.us.title" subtitle="index.us.subtitle" />
       <Grid gridTemplateColumns={["auto", "auto", "1fr 1fr"]}>
-        <Box px={[3, 5]} mb={[4, 4, 0]} data-sal="slide-left" data-sal-delay="0">
+        <Box px={[3, 5]} mb={[4, 4, 0]}>
           <Box px={[5]}>
             <Img sizes={data.brideImage.childImageSharp.sizes} />
           </Box>
@@ -45,7 +45,7 @@ const Us = () => {
             <span dangerouslySetInnerHTML={{ __html: intl.formatMessage({ id: "us.statement.laiz" }) }} /> - <b>Léo</b>
           </Text>
         </Box>
-        <Box px={[3, 5]} mb={[6, 6, 0]} data-sal="slide-right" data-sal-delay="0">
+        <Box px={[3, 5]} mb={[6, 6, 0]}>
           <Box px={[5]}>
             <Img sizes={data.groomImage.childImageSharp.sizes} />
           </Box>

@@ -113,7 +113,7 @@ const RsvpBox = styled(Box)`
 
 const WhereBox = styled(Box)`
   background-image: url("/img/where_bg.jpg");
-  background-position: top right;
+  background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
 `;
