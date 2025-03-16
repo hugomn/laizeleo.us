@@ -37,7 +37,7 @@
   image: ../images/gifts/torradeira.png
   price: 189.0
   total: 1
-  sold: 0
+  sold: 1
 - name: Bedroom TV
   image: ../images/gifts/tv_para_o_quarto.png
   price: 183.33
@@ -152,7 +152,7 @@
   image: ../images/gifts/passagem_de_aviao_para_a_lua-de-mel.png
   price: 999.0
   total: 5
-  sold: 0
+  sold: 1
 - name: Plane Ticket to Visit Family in JF
   image: ../images/gifts/passagem_de_aviao_pra_visitar_familia_em_jf.png
   price: 500.0
