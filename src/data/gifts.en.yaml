@@ -62,7 +62,7 @@
   image: ../images/gifts/sofa.png
   price: 299.88
   total: 8
-  sold: 0
+  sold: 1
 - name: 1 Year of Food for Amy
   image: ../images/gifts/1_ano_de_racao_para_a_amy.png
   price: 172.25
@@ -82,7 +82,7 @@
   image: ../images/gifts/vaquinha_para_o_churrasco_de_sabado.png
   price: 
   total: 50
-  sold: 0
+  sold: 2
 - name: Dinnerware Set
   image: ../images/gifts/aparelho_de_jantar.png
   price: 333.0
@@ -147,7 +147,7 @@
   image: ../images/gifts/jantar_especial_de_lua_de_mel.png
   price: 250.0
   total: 4
-  sold: 3
+  sold: 4
 - name: Plane Ticket for Honeymoon
   image: ../images/gifts/passagem_de_aviao_para_a_lua-de-mel.png
   price: 999.0
