@@ -22,7 +22,7 @@
   image: ../images/gifts/liquidificador.png
   price: 124.50
   total: 2
-  sold: 0
+  sold: 1
 - name: Processador de alimentos
   image: ../images/gifts/processador_de_alimentos.png
   price: 133.0
@@ -82,7 +82,7 @@
   image: ../images/gifts/vaquinha_para_o_churrasco_de_sabado.png
   price: 
   total: 50
-  sold: 2
+  sold: 3
 - name: Aparelho de jantar
   image: ../images/gifts/aparelho_de_jantar.png
   price: 333.0
