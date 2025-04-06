@@ -67,12 +67,12 @@
   image: ../images/gifts/1_ano_de_racao_para_a_amy.png
   price: 172.25
   total: 4
-  sold: 0
+  sold: 1
 - name: 3 Months of Burgers for Laiz
   image: ../images/gifts/3_meses_de_hamburguer_para_a_laiz.png
   price: 130.0
   total: 3
-  sold: 0
+  sold: 1
 - name: Sunglasses for Léo
   image: ../images/gifts/oculos_escuros_para_o_leo.png
   price: 299.5
@@ -97,7 +97,7 @@
   image: ../images/gifts/edredom.png
   price: 319.0
   total: 1
-  sold: 0
+  sold: 1
 - name: Cutlery Set
   image: ../images/gifts/faqueiro.png
   price: 349.0
