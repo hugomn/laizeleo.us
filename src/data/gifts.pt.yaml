@@ -7,7 +7,7 @@
   image: ../images/gifts/fogao.png
   price: 399.92
   total: 13
-  sold: 1
+  sold: 2
 - name: Geladeira
   image: ../images/gifts/geladeira.png
   price: 329.9
@@ -22,7 +22,7 @@
   image: ../images/gifts/liquidificador.png
   price: 124.50
   total: 2
-  sold: 1
+  sold: 2
 - name: Processador de alimentos
   image: ../images/gifts/processador_de_alimentos.png
   price: 133.0
@@ -47,7 +47,7 @@
   image: ../images/gifts/mesa_de_canto.png
   price: 239.0
   total: 1
-  sold: 0
+  sold: 1
 - name: Mesa de jantar
   image: ../images/gifts/mesa_de_jantar.png
   price: 283.17
@@ -117,7 +117,7 @@
   image: ../images/gifts/jogo_de_facas_para_churrasco.png
   price: 479.9
   total: 1
-  sold: 0
+  sold: 1
 - name: Jogo de toalhas
   image: ../images/gifts/jogo_de_toalhas.png
   price: 349.0
@@ -132,7 +132,7 @@
   image: ../images/gifts/travesseiros.png
   price: 249.0
   total: 2
-  sold: 0
+  sold: 1
 - name: City tour na Lua de Mel
   image: ../images/gifts/city_tour_na_lua_de_mel.png
   price: 250.0
@@ -157,4 +157,4 @@
   image: ../images/gifts/passagem_de_aviao_pra_visitar_familia_em_jf.png
   price: 500.0
   total: 4
-  sold: 1
+  sold: 2
