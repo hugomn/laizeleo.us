@@ -27,7 +27,7 @@
   image: ../images/gifts/processador_de_alimentos.png
   price: 133.0
   total: 3
-  sold: 1
+  sold: 2
 - name: Robot Vacuum
   image: ../images/gifts/robo_aspirador.png
   price: 769.99
@@ -72,7 +72,7 @@
   image: ../images/gifts/3_meses_de_hamburguer_para_a_laiz.png
   price: 130.0
   total: 3
-  sold: 1
+  sold: 2
 - name: Sunglasses for Léo
   image: ../images/gifts/oculos_escuros_para_o_leo.png
   price: 299.5
@@ -152,7 +152,7 @@
   image: ../images/gifts/passagem_de_aviao_para_a_lua-de-mel.png
   price: 999.0
   total: 5
-  sold: 1
+  sold: 2
 - name: Plane Ticket to Visit Family in JF
   image: ../images/gifts/passagem_de_aviao_pra_visitar_familia_em_jf.png
   price: 500.0
