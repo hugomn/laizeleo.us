@@ -2,7 +2,7 @@
   image: ../images/gifts/batedeira.png
   price: 299.95
   total: 2
-  sold: 0
+  sold: 1
 - name: Fogão de embutir
   image: ../images/gifts/fogao.png
   price: 399.92
@@ -12,12 +12,12 @@
   image: ../images/gifts/geladeira.png
   price: 329.9
   total: 10
-  sold: 0
+  sold: 1
 - name: Lava-louças
   image: ../images/gifts/lavalouca.png
   price: 219.9
   total: 10
-  sold: 0
+  sold: 3
 - name: Liquidificador
   image: ../images/gifts/liquidificador.png
   price: 124.50
@@ -132,7 +132,7 @@
   image: ../images/gifts/travesseiros.png
   price: 249.0
   total: 2
-  sold: 1
+  sold: 2
 - name: City tour na Lua de Mel
   image: ../images/gifts/city_tour_na_lua_de_mel.png
   price: 250.0
@@ -142,7 +142,7 @@
   image: ../images/gifts/hotel_lua_de_mel.png
   price: 415.83
   total: 12
-  sold: 0
+  sold: 1
 - name: Jantar especial de Lua de Mel
   image: ../images/gifts/jantar_especial_de_lua_de_mel.png
   price: 250.0
