@@ -42,7 +42,7 @@
   image: ../images/gifts/tv_para_o_quarto.png
   price: 183.33
   total: 6
-  sold: 0
+  sold: 2
 - name: Mesa de canto
   image: ../images/gifts/mesa_de_canto.png
   price: 239.0
@@ -72,7 +72,7 @@
   image: ../images/gifts/3_meses_de_hamburguer_para_a_laiz.png
   price: 130.0
   total: 3
-  sold: 2
+  sold: 3
 - name: Óculos escuros para o Léo
   image: ../images/gifts/oculos_escuros_para_o_leo.png
   price: 299.5
@@ -87,12 +87,12 @@
   image: ../images/gifts/aparelho_de_jantar.png
   price: 333.0
   total: 6
-  sold: 0
+  sold: 1
 - name: Cortina
   image: ../images/gifts/cortina.png
   price: 279.0
   total: 1
-  sold: 0
+  sold: 1
 - name: Edredom
   image: ../images/gifts/edredom.png
   price: 319.0
