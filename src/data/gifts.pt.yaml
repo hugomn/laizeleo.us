@@ -2,12 +2,12 @@
   image: ../images/gifts/batedeira.png
   price: 299.95
   total: 2
-  sold: 1
+  sold: 2
 - name: Fogão de embutir
   image: ../images/gifts/fogao.png
   price: 399.92
   total: 13
-  sold: 2
+  sold: 3
 - name: Geladeira
   image: ../images/gifts/geladeira.png
   price: 329.9
@@ -17,7 +17,7 @@
   image: ../images/gifts/lavalouca.png
   price: 219.9
   total: 10
-  sold: 3
+  sold: 6
 - name: Liquidificador
   image: ../images/gifts/liquidificador.png
   price: 124.50
@@ -27,12 +27,12 @@
   image: ../images/gifts/processador_de_alimentos.png
   price: 133.0
   total: 3
-  sold: 2
+  sold: 3
 - name: Robô Aspirador
   image: ../images/gifts/robo_aspirador.png
   price: 769.99
   total: 5
-  sold: 0
+  sold: 1
 - name: Torradeira
   image: ../images/gifts/torradeira.png
   price: 189.0
@@ -42,7 +42,7 @@
   image: ../images/gifts/tv_para_o_quarto.png
   price: 183.33
   total: 6
-  sold: 2
+  sold: 4
 - name: Mesa de canto
   image: ../images/gifts/mesa_de_canto.png
   price: 239.0
@@ -52,7 +52,7 @@
   image: ../images/gifts/mesa_de_jantar.png
   price: 283.17
   total: 6
-  sold: 0
+  sold: 1
 - name: Sapateira
   image: ../images/gifts/sapateira.png
   price: 479.9
@@ -62,7 +62,7 @@
   image: ../images/gifts/sofa.png
   price: 299.88
   total: 8
-  sold: 1
+  sold: 2
 - name: 1 ano de ração para a Amy
   image: ../images/gifts/1_ano_de_racao_para_a_amy.png
   price: 172.25
@@ -77,12 +77,12 @@
   image: ../images/gifts/oculos_escuros_para_o_leo.png
   price: 299.5
   total: 2
-  sold: 0
+  sold: 2
 - name: Vaquinha para o churrasco de sábado
   image: ../images/gifts/vaquinha_para_o_churrasco_de_sabado.png
   price: 
   total: 50
-  sold: 3
+  sold: 5
 - name: Aparelho de jantar
   image: ../images/gifts/aparelho_de_jantar.png
   price: 333.0
@@ -112,7 +112,7 @@
   image: ../images/gifts/jogo_de_lencol.png
   price: 269.99
   total: 2
-  sold: 0
+  sold: 1
 - name: Jogo de facas para churrasco
   image: ../images/gifts/jogo_de_facas_para_churrasco.png
   price: 479.9
@@ -122,7 +122,7 @@
   image: ../images/gifts/jogo_de_toalhas.png
   price: 349.0
   total: 1
-  sold: 0
+  sold: 1
 - name: Rede e ganchos
   image: ../images/gifts/rede_e_ganchos.png
   price: 429.0
@@ -142,7 +142,7 @@
   image: ../images/gifts/hotel_lua_de_mel.png
   price: 415.83
   total: 12
-  sold: 1
+  sold: 5
 - name: Jantar especial de Lua de Mel
   image: ../images/gifts/jantar_especial_de_lua_de_mel.png
   price: 250.0
